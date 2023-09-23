@@ -1,0 +1,53 @@
+body {
+  background-color: hsl(36, 100%, 78%);
+  margin-bottom: 20px;
+}
+
+img {
+  border: 3px solid black;
+  border-radius: 20px;
+  width: 100%;
+}
+
+h2 {
+  font-family: 'Brush Script MT', Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  margin: 5px 0;
+  text-decoration: underline;
+}
+
+li {
+  margin: 5px 0;
+}
+
+a {
+  color: blue;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.header-img {
+  margin: 10px auto;
+  width: 80%;
+}
+
+.container {
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+/* .info-block:not(h2) */
+
+.info-block {
+  margin: 1.5em 0;
+}
+
+.info-block p,
+.info-block ol,
+.info-block ul {
+  margin: 0 auto;
+  width: 90%;
+}
